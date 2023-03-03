@@ -28,3 +28,6 @@ We should follow the naming convention and if the class name is Computer then bu
 3. Java Builder class should have methods to set the optional parameters and it should return the same Builder object after setting the optional attribute.
 4. The final step is to provide a build() method in the builder class that will return the Object needed by client program.
 For this we need to have a private constructor in the Class with Builder class as argument.
+
+### define
+    Builder is a creational design pattern, which allows constructing complex objects step by step.
