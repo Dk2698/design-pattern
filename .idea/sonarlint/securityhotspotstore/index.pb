@@ -98,3 +98,15 @@ h
 8src/com/kumar/creational/abstractfactory/LuxuryCar2.java,4\3\43a84b7e105d0765c0f457dcd3c754bf7031c5fe
 b
 2src/com/kumar/creational/abstractfactory/Main.java,d\8\d8718970d58d8a4551b703bc48f87fe600724229
+Z
+*src/com/kumar/creational/builder/Main.java,a\b\ab26dfb725c1dd53c7c84a972dc22c5efeb221ba
+Z
+*src/com/kumar/ExampleBuilder/Computer.java,b\c\bc4f7ab23345fc5e90d1d6c4fecf5a023708ccdc
+d
+4src/com/kumar/ExampleBuilder/TestBuilderPattern.java,9\0\906cd946b2898fd907d5c9896468ca8ddb02c1d0
+Z
+*src/com/kumar/creational/builder/User.java,7\0\70d5e3eae69f22f885aee5d0101a0742f6849fb6
+^
+.src/com/kumar/creational/shallowcopy/Main.java,b\2\b2fe87f68b2fc05070f52be99310f656e539cf16
+k
+;src/com/kumar/creational/shallowcopy/NetworkConnection.java,f\1\f1e57b7d9d3635d317a7b19339911a25794e4a3a
