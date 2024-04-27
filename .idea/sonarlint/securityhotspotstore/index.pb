@@ -19,3 +19,6 @@ X
 0src/com/kumar/nullobjectpattern/NullVehicle.java,6\2\62a547626957aa4e0dfbd25fad9fff0e3e900b3d
 c
 3src/com/kumar/nullobjectpattern/VehicleFactory.java,7\c\7ca1945e12fa7030a72c9230c0ceecbe3e31035d
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
