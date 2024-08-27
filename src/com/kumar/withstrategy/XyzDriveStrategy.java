@@ -1,4 +1,4 @@
-package com.kumar.WithStrategyPattern.Strategy;
+package com.kumar.withstrategy;
 
 public class XyzDriveStrategy  implements  DriveStrategy{
     @Override

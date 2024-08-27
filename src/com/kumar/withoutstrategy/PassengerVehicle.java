@@ -1,4 +1,4 @@
-package com.kumar.WithoutStrategyPattern;
+package com.kumar.withoutstrategy;
 
 public class PassengerVehicle extends  Vehicle {
 }
