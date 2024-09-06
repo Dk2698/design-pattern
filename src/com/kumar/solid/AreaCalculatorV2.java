@@ -2,7 +2,7 @@ package com.kumar.solid;
 
 import java.util.List;
 
-public class AreaCalculator implements IAreaCalculator {
+public class AreaCalculatorV2 implements IAreaCalculator {
     //  not modified class for passing different object of shape
     @Override
     public int sum(List<Shape> shapes) {

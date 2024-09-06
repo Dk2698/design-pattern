@@ -4,7 +4,8 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        final AreaCalculator areaCalculator = new AreaCalculator();
+        final IAreaCalculator areaCalculator = new AreaCalculator();
+        final IAreaCalculator areaCalculatorV2 = new AreaCalculatorV2();
 
         final Circle circle = new Circle(10);
         final Square square = new Square(10);
@@ -22,9 +23,13 @@ public class Main {
 //        System.out.println("sum = "+ sum);
 //        System.out.println(areaCalculator.json(shapes));
 
-        final ShapesPrinter printer = new ShapesPrinter();
-        System.out.println(printer.json(sum));
-        System.out.println(printer.csv(sum));
+//        final ShapesPrinter printer = new ShapesPrinter(areaCalculator);
+        final ShapesPrinter printer = new ShapesPrinter(areaCalculatorV2);
+//        System.out.println(printer.json(sum));
+//        System.out.println(printer.csv(sum));
+        System.out.println(printer.json(shapes));
+        System.out.println(printer.csv(shapes));
+
     }
     // interface Segregation
     // interface should not force classes to implement what they can't do.
