@@ -8,7 +8,9 @@ public class Main {
 
         final Circle circle = new Circle(10);
         final Square square = new Square(10);
-        List<Object> shapes = List.of(circle, square);
+        final Cube cube = new Cube();
+        final Reactangle reactangle = new Reactangle();
+        List<Shape> shapes = List.of(circle, square, cube, reactangle);
 
         final int sum = areaCalculator.sum(shapes);
 //        System.out.println("sum = "+ sum);
