@@ -1,6 +1,9 @@
-package com.kumar.DecoratorPattern;
+package com.kumar.decorator.pizzashop;
 
-public class Mushroom extends ToppingDecorator{
+import com.kumar.decorator.pizzashop.BasePizza;
+import com.kumar.decorator.pizzashop.ToppingDecorator;
+
+public class Mushroom extends ToppingDecorator {
     BasePizza basePizza;
 
     public Mushroom(BasePizza basePizza) {
