@@ -1,4 +1,4 @@
-package com.kumar.SingletonPattern;
+package com.kumar.singleton;
 // create to enum because solved by reflection of constructor
 public  enum EnumSingleton {
     INSTANCE;

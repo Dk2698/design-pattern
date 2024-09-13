@@ -1,4 +1,4 @@
-package com.kumar.SingletonPattern;
+package com.kumar.singleton;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
