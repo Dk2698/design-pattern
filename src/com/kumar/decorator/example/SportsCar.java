@@ -1,4 +1,4 @@
-package com.kumar.ExampleDecorator;
+package com.kumar.decorator.example;
 
 public class SportsCar extends  CarDecorator{
     public SportsCar(Car c) {

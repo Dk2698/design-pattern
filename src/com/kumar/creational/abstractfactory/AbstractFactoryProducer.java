@@ -1,7 +1,5 @@
 package com.kumar.creational.abstractfactory;
 
-import com.kumar.ExampleDecorator.LuxuryCar;
-
 public class AbstractFactoryProducer {
 
     public AbstractFactory getFactoryInstance(String value){
