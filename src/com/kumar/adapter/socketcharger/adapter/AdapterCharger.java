@@ -1,4 +1,6 @@
-package com.kumar.structural.adapter;
+package com.kumar.adapter.socketcharger.adapter;
+
+import com.kumar.adapter.socketcharger.adaptee.AndroidCharger;
 
 public class AdapterCharger implements AppleCharger{ // interface apple charge
 

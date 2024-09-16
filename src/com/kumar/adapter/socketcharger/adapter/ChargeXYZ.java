@@ -1,4 +1,4 @@
-package com.kumar.structural.adapter;
+package com.kumar.adapter.socketcharger.adapter;
 
 public class ChargeXYZ implements AppleCharger{
     @Override

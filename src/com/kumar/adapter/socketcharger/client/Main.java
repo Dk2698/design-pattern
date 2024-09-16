@@ -1,4 +1,9 @@
-package com.kumar.structural.adapter;
+package com.kumar.adapter.socketcharger.client;
+
+import com.kumar.adapter.socketcharger.adapter.AdapterCharger;
+import com.kumar.adapter.socketcharger.adaptee.AmbraneCharger;
+import com.kumar.adapter.socketcharger.adaptee.AndroidCharger;
+import com.kumar.adapter.socketcharger.adapter.Iphone15;
 
 public class Main {
     public static void main(String[] args) {
