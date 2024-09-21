@@ -1,8 +1,6 @@
 package com.kumar.command.client;
 
-import com.kumar.command.command.LightOffCommand;
 import com.kumar.command.invoker.RemoteControl;
-import com.kumar.command.receiver.Light;
 
 public class RemoteTestDrive {
 
