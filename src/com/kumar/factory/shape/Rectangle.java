@@ -1,4 +1,4 @@
-package com.kumar.FacttoryPattern;
+package com.kumar.factory.shape;
 
 // concrete class
 public class Rectangle  implements  Shape{

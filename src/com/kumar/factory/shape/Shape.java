@@ -1,4 +1,4 @@
-package com.kumar.FacttoryPattern;
+package com.kumar.factory.shape;
 
 public interface Shape {
     void draw();

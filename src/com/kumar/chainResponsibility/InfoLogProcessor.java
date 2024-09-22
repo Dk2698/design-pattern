@@ -1,4 +1,4 @@
-package com.kumar.ChainResponsibilityPattern;
+package com.kumar.chainResponsibility;
 
 public class InfoLogProcessor extends  LogProcessor {
     InfoLogProcessor(LogProcessor loggerProcessor) {

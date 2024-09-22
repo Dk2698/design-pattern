@@ -1,4 +1,4 @@
-package com.kumar.ChainResponsibilityPattern;
+package com.kumar.chainResponsibility;
 
 public class DebugLogProcessor extends  LogProcessor{
     DebugLogProcessor(LogProcessor loggerProcessor) {

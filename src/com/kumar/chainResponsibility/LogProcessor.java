@@ -1,4 +1,4 @@
-package com.kumar.ChainResponsibilityPattern;
+package com.kumar.chainResponsibility;
 
 public  abstract class LogProcessor {
     public  static  int INFO = 1;

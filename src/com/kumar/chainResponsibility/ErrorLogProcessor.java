@@ -1,4 +1,4 @@
-package com.kumar.ChainResponsibilityPattern;
+package com.kumar.chainResponsibility;
 
 public class ErrorLogProcessor extends  LogProcessor{
     ErrorLogProcessor(LogProcessor loggerProcessor) {

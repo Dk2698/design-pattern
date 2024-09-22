@@ -1,4 +1,4 @@
-package com.kumar.ChainResponsibilityPattern;
+package com.kumar.chainResponsibility;
 
 public class Main {
     public static void main(String[] args) {
