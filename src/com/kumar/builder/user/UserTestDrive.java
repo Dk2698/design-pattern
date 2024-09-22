@@ -1,6 +1,6 @@
-package com.kumar.creational.builder;
+package com.kumar.builder.user;
 
-public class Main {
+public class UserTestDrive {
     public static void main(String[] args) {
         final User user = new User.UserBuilder()
                 .setUserId("1")

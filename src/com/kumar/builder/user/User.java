@@ -1,4 +1,4 @@
-package com.kumar.creational.builder;
+package com.kumar.builder.user;
 
 public class User {
     private final String userId;
