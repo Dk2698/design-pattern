@@ -1,9 +1,9 @@
-package com.kumar.BuilderPattern;
+package com.kumar.builder.url;
 
 public class URL {
     private String protocol;
     private String hostname;
-    private  String port;
+    private String port;
     private String pathParam;
     private String queryParam;
 

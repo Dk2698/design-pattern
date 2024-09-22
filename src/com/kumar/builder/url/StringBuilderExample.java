@@ -1,9 +1,9 @@
-package com.kumar.BuilderPattern;
+package com.kumar.builder.url;
 
 public class StringBuilderExample {
     private String protocol;
     private String hostname;
-    private  String port;
+    private String port;
     private String pathParam;
     private String queryParam;
 
@@ -15,7 +15,7 @@ public class StringBuilderExample {
         this.queryParam = queryParam;
     }
 
-    public  String buildURL(){
+    public String buildURL() {
         // StringBuilder is a builder class which helps yoy to concatenate string one after the other
         // and finally returns you a string which ou cannot change
         StringBuilder sb = new StringBuilder();

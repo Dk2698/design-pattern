@@ -1,6 +1,6 @@
-package com.kumar.BuilderPattern;
+package com.kumar.builder.url;
 
-class Demo {
+class UrlTestDrive {
     public static void main(String[] args) {
         URL url = new URL();
         url.setProtocol("http://");
@@ -12,7 +12,7 @@ class Demo {
         System.out.print(url.getProtocol());
         System.out.print(url.getHostname());
         System.out.print(url.getPort());
-        System.out.print(url.getPathParam()+"\n");
+        System.out.print(url.getPathParam() + "\n");
 
 
         // URLBuilder

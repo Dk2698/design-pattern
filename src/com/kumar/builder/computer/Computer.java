@@ -1,4 +1,4 @@
-package com.kumar.ExampleBuilder;
+package com.kumar.builder.computer;
 
 public class Computer {
     //required parameters
@@ -27,14 +27,14 @@ public class Computer {
     }
 
     private Computer(ComputerBuilder builder) {
-        this.HDD=builder.HDD;
-        this.RAM=builder.RAM;
-        this.isGraphicsCardEnabled=builder.isGraphicsCardEnabled;
-        this.isBluetoothEnabled=builder.isBluetoothEnabled;
+        this.HDD = builder.HDD;
+        this.RAM = builder.RAM;
+        this.isGraphicsCardEnabled = builder.isGraphicsCardEnabled;
+        this.isBluetoothEnabled = builder.isBluetoothEnabled;
     }
 
     //Builder Class
-    public static class ComputerBuilder{
+    public static class ComputerBuilder {
 
         // required parameters
         private String HDD;
@@ -44,9 +44,9 @@ public class Computer {
         private boolean isGraphicsCardEnabled;
         private boolean isBluetoothEnabled;
 
-        public ComputerBuilder(String hdd, String ram){
-            this.HDD=hdd;
-            this.RAM=ram;
+        public ComputerBuilder(String hdd, String ram) {
+            this.HDD = hdd;
+            this.RAM = ram;
         }
 
         public ComputerBuilder setGraphicsCardEnabled(boolean isGraphicsCardEnabled) {
@@ -59,7 +59,7 @@ public class Computer {
             return this;
         }
 
-        public Computer build(){
+        public Computer build() {
             return new Computer(this);
         }
     }

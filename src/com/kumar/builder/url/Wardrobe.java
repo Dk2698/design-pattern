@@ -1,11 +1,11 @@
-package com.kumar.BuilderPattern;
+package com.kumar.builder.url;
 
 public class Wardrobe {
-    private  int doors;
+    private int doors;
     private boolean isMirror;
-    private  boolean isWheels;
-    private  boolean isHangingRod;
-    private  int compartments;
+    private boolean isWheels;
+    private boolean isHangingRod;
+    private int compartments;
 
     public Wardrobe(int doors) {
         this.doors = doors;
