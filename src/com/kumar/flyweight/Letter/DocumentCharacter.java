@@ -1,4 +1,4 @@
-package com.kumar.structural.flyweight;
+package com.kumar.flyweight.Letter;
 
 public class DocumentCharacter implements ILetter{
 
