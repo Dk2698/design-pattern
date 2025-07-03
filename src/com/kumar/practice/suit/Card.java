@@ -1,4 +1,4 @@
-package com.kumar.practice;
+package com.kumar.practice.suit;
 
 public class Card {
     private final Suit suit;

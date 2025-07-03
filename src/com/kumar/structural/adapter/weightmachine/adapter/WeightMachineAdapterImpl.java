@@ -1,5 +1,6 @@
 package com.kumar.structural.adapter.weightmachine.adapter;
 
+
 import com.kumar.structural.adapter.weightmachine.adaptee.WeightMachine;
 
 public class WeightMachineAdapterImpl implements WeightMachineAdapter {

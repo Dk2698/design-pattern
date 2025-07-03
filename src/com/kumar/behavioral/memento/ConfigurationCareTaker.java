@@ -1,4 +1,6 @@
-package com.kumar.memento;
+package com.kumar.behavioral.memento;
+
+import com.kumar.behavioral.memento.ConfigurationMemento;
 
 import java.util.ArrayList;
 import java.util.List;

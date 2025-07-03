@@ -1,4 +1,4 @@
-package com.kumar.memento;
+package com.kumar.behavioral.memento;
 
 public class ConfigurationOriginator {
     private int height;

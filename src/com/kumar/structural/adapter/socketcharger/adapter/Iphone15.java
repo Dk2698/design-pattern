@@ -1,4 +1,4 @@
-package com.kumar.adapter.socketcharger.adapter;
+package com.kumar.structural.adapter.socketcharger.adapter;
 
 public class Iphone15 {
 

@@ -1,4 +1,4 @@
-package com.kumar.adapter.weightmachine.adapter;
+package com.kumar.structural.adapter.weightmachine.adapter;
 
 public interface WeightMachineAdapter {
 

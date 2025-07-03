@@ -1,4 +1,4 @@
-package com.kumar.adapter.socketcharger.adaptee;
+package com.kumar.structural.adapter.socketcharger.adaptee;
 
 public class AmbraneCharger implements AndroidCharger {
     @Override
